@@ -136,19 +136,9 @@ The full experimental pipeline is open-source and executable end-to-end on Kaggl
 If you utilize this framework or dataset in your research, please cite:
 
 ```bibtex
-@article{prakash2026cyberbullying,
-  title={Emotion cause pair extraction using multi-tier deep contextual and affective representations for bilingual cyberbullying detection},
-  author={V. Jothi Prakash and S. Arul Antran Vijay},
-  journal={Expert Systems with Applications},
-  volume={297},
-  pages={129270},
-  year={2026},
-  publisher={Elsevier},
-  doi={10.1016/j.eswa.2025.129270}
-}
 
 @data{tamilcb_dataset_2026,
-  author={Prakash, V. Jothi and Vijay, S. Arul Antran},
+  author={V. Jothi Prakash and S. Arul Antran Vijay},
   publisher={IEEE DataPort},
   title={TamilCB: Bilingual English-Tamil Parallel Dataset for Cyberbullying and Harmful Content Detection},
   year={2026},
