@@ -30,7 +30,7 @@ Empirical evaluation conducted on a verified parallel corpus of **45,975 strictl
 | Traditional Baseline: Word TF-IDF + Linear SVM | 83.15% | 84.10% | 83.15% | 83.42% |
 | Multilingual BERT (mBERT) - Sentence Level | 75.42% | 73.58% | 75.42% | 72.57% |
 | XLM-RoBERTa (Cross-Lingual Dravidian Baseline) | 78.60% | 79.10% | 78.60% | 78.75% |
-| Elsevier ESWA 2026 Reference Benchmark (*Prakash & Vijay*) | 84.00% | 85.20% | 84.00% | 84.45% |
+| Multi-Tier Framework: mBERT + BiLSTM-ECPE + CNN-GNN (Prakash & Vijay, 2026) | 84.00% | 85.20% | 84.00% | 84.45% |
 | **Proposed: Dual Subword N-Gram + Affective Ensemble (Unfiltered)** | **86.78%** | **91.18%** | **92.81%** | **91.99%** |
 | **Proposed: Dual-Tier Subword Triage Framework (High-Precision Tier, $\tau \ge 0.65$)** | **96.34%** | **96.50%** | **96.34%** | **96.42%** |
 
