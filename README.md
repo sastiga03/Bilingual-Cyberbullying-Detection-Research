@@ -130,34 +130,7 @@ The full experimental pipeline is open-source and executable end-to-end on Kaggl
   * English Benchmark: `cyberbullying_tweets.csv` (47,692 tweets)
   * Tamil Parallel Corpus: `tamilCB_dataset.csv` (47,694 tweets) — Karpagam College of Engineering Repository (IEEE DataPort DOI: `10.21227/20s2-jh36`)
 
----
 
-## 📖 Citation
-
-If you utilize this framework or dataset in your research, please cite:
-
-```bibtex
-@article{prakash2026cyberbullying,
-  title={Bilingual Cyberbullying and Harmful Content Detection in English and Tamil Using Deep Contextual and Affective Representations},
-  author={V. Jothi Prakash and S. Arul Antran Vijay},
-  journal={Expert Systems with Applications},
-  volume={297},
-  pages={129270},
-  year={2026},
-  publisher={Elsevier},
-  doi={10.1016/j.eswa.2025.129270}
-}
-
-@data{tamilcb_dataset_2026,
-  author={Prakash, V. Jothi and Vijay, S. Arul Antran},
-  publisher={IEEE DataPort},
-  title={TamilCB: Bilingual English-Tamil Parallel Dataset for Cyberbullying and Harmful Content Detection},
-  year={2026},
-  doi={10.21227/20s2-jh36}
-}
-```
-
----
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
