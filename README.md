@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Abstract & Research Overview
+## Abstract & Research Overview
 
 Automated moderation of toxic social media content remains acutely challenged in low-resource Dravidian languages such as **Tamil**, characterized by complex agglutinative morphology, dialectal phonetic spellings, and informal code-mixing. While state-of-the-art transformer architectures (mBERT, XLM-RoBERTa) incur high computational overhead and struggle with out-of-vocabulary agglutinative inflections, standard linear bag-of-words models fail to capture syntactic nuance.
 
@@ -19,7 +19,7 @@ Automated moderation of toxic social media content remains acutely challenged in
 
 ---
 
-## 📊 1. Model Comparison Benchmark (Table 1)
+## 1. Model Comparison Benchmark (Table 1)
 
 Empirical evaluation conducted on a verified parallel corpus of **45,975 strictly aligned English-Tamil tweet pairs**:
 
@@ -36,7 +36,7 @@ Empirical evaluation conducted on a verified parallel corpus of **45,975 strictl
 
 ---
 
-## 🔬 2. Ablation Study (Table 2)
+## 2. Ablation Study (Table 2)
 
 Systematic isolation of each architectural component demonstrates the necessity of dual-level character subwords and confidence thresholding:
 
@@ -51,7 +51,7 @@ Systematic isolation of each architectural component demonstrates the necessity 
 
 ---
 
-## 📈 3. Statistical Significance (Table 3)
+## 3. Statistical Significance (Table 3)
 
 To validate that the performance improvements of the **Proposed SafeguardAI Framework** over baseline and transformer models are statistically authentic rather than random artifacts, rigorous hypothesis testing was performed:
 
@@ -76,10 +76,9 @@ To validate that the performance improvements of the **Proposed SafeguardAI Fram
 | Informal Slang & Colloquial Abuse | **0.6879** | 0.0162 | 9.87 | $p = 0.0087$ | Statistically Significant ($p < 0.01$) |
 | Word Count (Message Length) | **0.6432** | 0.0175 | 8.91 | $p = 0.0105$ | Statistically Significant ($p < 0.05$) |
 
-
 ---
 
-## 🛡️ 4. Adversarial Robustness & Noise Stress Test
+## 4. Adversarial Robustness & Noise Stress Test
 
 Real-world cyberbullying deliberately obfuscates toxic vocabulary via leetspeak (`b1tch`, `h4te`), character lengthening (`baaaad`), and typos to bypass automated keyword filters. Our subword character n-gram modeling exhibits high resistance to adversarial perturbations:
 
@@ -91,7 +90,7 @@ Real-world cyberbullying deliberately obfuscates toxic vocabulary via leetspeak 
 
 ---
 
-## 🎯 5. Multi-Class Targeted Cyberbullying Precision
+## 5. Multi-Class Targeted Cyberbullying Precision
 
 Evaluation across specific cyberbullying categories confirms near-perfect precision on explicit abuse domains:
 
@@ -106,7 +105,7 @@ Evaluation across specific cyberbullying categories confirms near-perfect precis
 
 ---
 
-## 🖼️ 6. Experimental Visualizations
+## 6. Experimental Visualizations
 
 ### **Ablation Study Comparison**
 ![Ablation Study Comparison](figures/ablation_study_comparison.png)
@@ -122,7 +121,7 @@ Evaluation across specific cyberbullying categories confirms near-perfect precis
 
 ---
 
-## 🚀 Reproduction & Kaggle Execution
+## Reproduction & Kaggle Execution
 
 The full experimental pipeline is open-source and executable end-to-end on Kaggle:
 * **Interactive Kaggle Notebook:** [Bilingual Cyberbullying Detection Research](https://www.kaggle.com/code/sastigasivakumar/bilingual-cyberbullying-detection-research)
@@ -130,7 +129,34 @@ The full experimental pipeline is open-source and executable end-to-end on Kaggl
   * English Benchmark: `cyberbullying_tweets.csv` (47,692 tweets)
   * Tamil Parallel Corpus: `tamilCB_dataset.csv` (47,694 tweets) — Karpagam College of Engineering Repository (IEEE DataPort DOI: `10.21227/20s2-jh36`)
 
+---
 
+## Citation
 
-## 📄 License
+If you utilize this framework or dataset in your research, please cite:
+
+```bibtex
+@article{prakash2026cyberbullying,
+  title={Emotion cause pair extraction using multi-tier deep contextual and affective representations for bilingual cyberbullying detection},
+  author={V. Jothi Prakash and S. Arul Antran Vijay},
+  journal={Expert Systems with Applications},
+  volume={297},
+  pages={129270},
+  year={2026},
+  publisher={Elsevier},
+  doi={10.1016/j.eswa.2025.129270}
+}
+
+@data{tamilcb_dataset_2026,
+  author={Prakash, V. Jothi and Vijay, S. Arul Antran},
+  publisher={IEEE DataPort},
+  title={TamilCB: Bilingual English-Tamil Parallel Dataset for Cyberbullying and Harmful Content Detection},
+  year={2026},
+  doi={10.21227/20s2-jh36}
+}
+```
+
+---
+
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
