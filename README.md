@@ -139,7 +139,7 @@ If you utilize this framework or dataset in your research, please cite:
 ```bibtex
 @article{prakash2026cyberbullying,
   title={Bilingual Cyberbullying and Harmful Content Detection in English and Tamil Using Deep Contextual and Affective Representations},
-  author={Prakash, V. Jothi and Vijay, S. Arul Antran},
+  author={V. Jothi Prakash and S. Arul Antran Vijay},
   journal={Expert Systems with Applications},
   volume={297},
   pages={129270},
